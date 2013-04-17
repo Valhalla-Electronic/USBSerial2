@@ -4095,21 +4095,6 @@ chip</description>
 <text x="-0.762" y="0.8255" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="19-337">
-<wire x1="-0.8" y1="0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-0.8" x2="0.8" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.8" x2="-0.8" y2="0.8" width="0.127" layer="51"/>
-<wire x1="-0.8" y1="-0.8" x2="0.8" y2="-0.8" width="0.127" layer="51"/>
-<wire x1="-0.2" y1="0.8" x2="0.2" y2="0.8" width="0.127" layer="21"/>
-<wire x1="-0.2" y1="-0.8" x2="0.2" y2="-0.8" width="0.127" layer="21"/>
-<circle x="-0.7" y="1.28" radius="0.08" width="0.17" layer="21"/>
-<smd name="1" x="-0.7" y="0.75" dx="0.6" dy="0.5" layer="1"/>
-<smd name="2" x="-0.7" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="3" x="-0.7" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
-<smd name="4" x="0.7" y="0.75" dx="0.6" dy="0.5" layer="1"/>
-<smd name="5" x="0.7" y="0" dx="0.6" dy="0.6" layer="1"/>
-<smd name="6" x="0.7" y="-0.75" dx="0.6" dy="0.5" layer="1"/>
-</package>
 <package name="1X06">
 <wire x1="11.43" y1="0.635" x2="12.065" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="12.065" y1="1.27" x2="13.335" y2="1.27" width="0.2032" layer="21"/>
@@ -4517,92 +4502,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="1" x="0" y="7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-7.62" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="LED-RGB">
-<wire x1="2.54" y1="-8.89" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="0" y1="-8.89" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="0" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-8.89" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="0" y2="-7.62" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-5.588" x2="0.381" y2="-4.191" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="-5.715" x2="-0.762" y2="-4.318" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="2.032" x2="0.381" y2="3.429" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="1.905" x2="-0.762" y2="3.302" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="6.35" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="6.35" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="8.89" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="9.652" x2="0.381" y2="11.049" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="9.525" x2="-0.762" y2="10.922" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="12.7" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-12.7" x2="-5.08" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-12.7" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-4.572" y="14.224" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.572" y="17.145" size="1.778" layer="96">&gt;VALUE</text>
-<text x="2.54" y="10.16" size="1.27" layer="94">BLUE</text>
-<text x="2.54" y="2.54" size="1.27" layer="94">RED</text>
-<text x="2.54" y="-5.08" size="1.27" layer="94">GREEN</text>
-<pin name="A-B" x="12.7" y="7.62" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A-G" x="12.7" y="-7.62" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="A-R" x="12.7" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<pin name="C-B" x="-7.62" y="7.62" visible="off" length="short" direction="pas"/>
-<pin name="C-G" x="-7.62" y="-7.62" visible="off" length="short" direction="pas"/>
-<pin name="C-R" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="-4.191"/>
-<vertex x="1.27" y="-4.572"/>
-<vertex x="0.762" y="-5.08"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.762" y="-4.318"/>
-<vertex x="0.127" y="-4.699"/>
-<vertex x="-0.381" y="-5.207"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="3.429"/>
-<vertex x="1.27" y="3.048"/>
-<vertex x="0.762" y="2.54"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.762" y="3.302"/>
-<vertex x="0.127" y="2.921"/>
-<vertex x="-0.381" y="2.413"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="11.049"/>
-<vertex x="1.27" y="10.668"/>
-<vertex x="0.762" y="10.16"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-0.762" y="10.922"/>
-<vertex x="0.127" y="10.541"/>
-<vertex x="-0.381" y="10.033"/>
-</polygon>
-</symbol>
 <symbol name="M06">
 <wire x1="1.27" y1="-7.62" x2="-5.08" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="-1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
@@ -4789,26 +4688,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="RGBLED">
-<gates>
-<gate name="G$1" symbol="LED-RGB" x="-2.54" y="0"/>
-</gates>
-<devices>
-<device name="SMT" package="19-337">
-<connects>
-<connect gate="G$1" pin="A-B" pad="4"/>
-<connect gate="G$1" pin="A-G" pad="6"/>
-<connect gate="G$1" pin="A-R" pad="5"/>
-<connect gate="G$1" pin="C-B" pad="1"/>
-<connect gate="G$1" pin="C-G" pad="3"/>
-<connect gate="G$1" pin="C-R" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5010,35 +4889,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 </package>
-<package name="CAY16">
-<description>Bourns CAY16 1206 SMD resistor quad-pack or equivalent.</description>
-<wire x1="-1.55" y1="0.75" x2="-1" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-0.6" y1="0.75" x2="-0.2" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="0.2" y1="0.75" x2="0.6" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="51"/>
-<wire x1="-1" y1="0.75" x2="-0.6" y2="0.75" width="0.1016" layer="51" curve="180"/>
-<wire x1="-0.2" y1="0.75" x2="0.2" y2="0.75" width="0.1016" layer="51" curve="180"/>
-<wire x1="0.6" y1="0.75" x2="1" y2="0.75" width="0.1016" layer="51" curve="180"/>
-<wire x1="1.55" y1="-0.75" x2="1" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="0.6" y1="-0.75" x2="0.2" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-0.2" y1="-0.75" x2="-0.6" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="-1" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
-<wire x1="1" y1="-0.75" x2="0.6" y2="-0.75" width="0.1016" layer="51" curve="180"/>
-<wire x1="0.2" y1="-0.75" x2="-0.2" y2="-0.75" width="0.1016" layer="51" curve="180"/>
-<wire x1="-0.6" y1="-0.75" x2="-1" y2="-0.75" width="0.1016" layer="51" curve="180"/>
-<smd name="1" x="-1.2" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="2" x="-0.4" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="3" x="0.4" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="4" x="1.2" y="-0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="5" x="1.2" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="6" x="0.4" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="7" x="-0.4" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<smd name="8" x="-1.2" y="0.675" dx="0.5" dy="0.65" layer="1"/>
-<text x="-1.905" y="-2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="SOT-223">
 <description>SOT-223</description>
 <wire x1="3.2766" y1="1.778" x2="3.2766" y2="-1.778" width="0.2032" layer="21"/>
@@ -5146,16 +4996,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pin name="P$1" x="-5.08" y="0" visible="off" length="short"/>
 <pin name="P$2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
-<symbol name="R1NV">
-<wire x1="-2.54" y1="-0.762" x2="2.54" y2="-0.762" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="0.762" x2="-2.54" y2="0.762" width="0.2032" layer="94"/>
-<wire x1="2.54" y1="-0.762" x2="2.54" y2="0.762" width="0.2032" layer="94"/>
-<wire x1="-2.54" y1="0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="94"/>
-<text x="-2.54" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
-<text x="-2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="+5V">
 <wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -5254,31 +5094,6 @@ Note that there should nothing on the BOM corresponding to this "component".</de
 <connects>
 <connect gate="G$1" pin="P$1" pad="1"/>
 <connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAY16" prefix="RN">
-<gates>
-<gate name="A" symbol="R1NV" x="0" y="5.08"/>
-<gate name="B" symbol="R1NV" x="0" y="2.54"/>
-<gate name="C" symbol="R1NV" x="0" y="0"/>
-<gate name="D" symbol="R1NV" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="CAY16">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="8"/>
-<connect gate="B" pin="1" pad="2"/>
-<connect gate="B" pin="2" pad="7"/>
-<connect gate="C" pin="1" pad="3"/>
-<connect gate="C" pin="2" pad="6"/>
-<connect gate="D" pin="1" pad="4"/>
-<connect gate="D" pin="2" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5408,8 +5223,8 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <part name="R1" library="freetronics" deviceset="RESISTOR" device="0603" value="10k 0603"/>
 <part name="C1" library="freetronics" deviceset="CAP" device="0603" value="22p 0603"/>
 <part name="C2" library="freetronics" deviceset="CAP" device="0603" value="22p 0603"/>
+<part name="R4" library="freetronics" deviceset="RESISTOR" device="0603" value="22R 0603"/>
 <part name="R5" library="freetronics" deviceset="RESISTOR" device="0603" value="22R 0603"/>
-<part name="R6" library="freetronics" deviceset="RESISTOR" device="0603" value="22R 0603"/>
 <part name="IC1" library="freetronics-jon" deviceset="ATMEL_ATMEGA8U2-MU" device="QFN" value="ATMEGA16U2 QFN-32"/>
 <part name="R2" library="freetronics" deviceset="RESISTOR" device="0603" value="1M 0603"/>
 <part name="R3" library="freetronics" deviceset="RESISTOR" device="0603" value="27R 0603"/>
@@ -5419,15 +5234,12 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <part name="C3" library="freetronics" deviceset="CAP" device="0603" value="100n 0603"/>
 <part name="J1" library="freetronics-jon" deviceset="SJC" device="N" value="Gnd"/>
 <part name="J2" library="freetronics-luke" deviceset="SJ" device="" value="DFU"/>
-<part name="LED1" library="freetronics-master-v1" deviceset="RGBLED" device="SMT" value="RGB"/>
-<part name="R4" library="freetronics-luke" deviceset="CAY16" device="" value="1k"/>
 <part name="U$8" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$13" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$14" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$15" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$16" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$17" library="freetronics-luke" deviceset="GND" device=""/>
-<part name="U$18" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="H4" library="freetronics-master-v1" deviceset="M06" device="SIP" value="Serial"/>
 <part name="U$4" library="freetronics-luke" deviceset="GND" device=""/>
 <part name="U$5" library="freetronics-luke" deviceset="+5V" device=""/>
@@ -5452,15 +5264,15 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <part name="H2" library="freetronics-jon" deviceset="USB-6P" device="SMT"/>
 <part name="Z1" library="freetronics" deviceset="RESISTOR" device="0603" value="PGB1010603"/>
 <part name="Z2" library="freetronics" deviceset="RESISTOR" device="0603" value="PGB1010603"/>
-<part name="L2" library="freetronics-master-v1" deviceset="INDUCTOR" device="0805-LARGE" value="0805 INDUCTOR"/>
-<part name="U$23" library="freetronics-jon" deviceset="M13" device=""/>
-<part name="LED2" library="freetronics-jon" deviceset="LED" device="0603"/>
-<part name="LED3" library="freetronics-jon" deviceset="LED" device="0603"/>
-<part name="LED4" library="freetronics-jon" deviceset="LED" device="0603"/>
+<part name="L1" library="freetronics-master-v1" deviceset="INDUCTOR" device="0805-LARGE" value="0805 INDUCTOR"/>
+<part name="H1" library="freetronics-jon" deviceset="M13" device=""/>
+<part name="LED1" library="freetronics-jon" deviceset="LED" device="0603" value="GREEN 0603"/>
+<part name="LED3" library="freetronics-jon" deviceset="LED" device="0603" value="BLUE 0603"/>
+<part name="LED2" library="freetronics-jon" deviceset="LED" device="0603" value="RED 0603"/>
+<part name="R6" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="R7" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
 <part name="R8" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="R9" library="freetronics" deviceset="RESISTOR" device="0603" value="1K 0603"/>
-<part name="U$24" library="freetronics-luke" deviceset="VDD" device=""/>
+<part name="U$18" library="freetronics-luke" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5476,11 +5288,8 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <text x="7.366" y="9.398" size="1.778" layer="94">(C)2013 Freetronics Pty Ltd: www.freetronics.com</text>
 <text x="7.366" y="6.35" size="1.778" layer="94">Licensed under the TAPR Open Hardware License: www.tapr.org/ohl</text>
 <text x="63.246" y="14.478" size="1.778" layer="94">www.freetronics.com/usbserial</text>
-<text x="185.42" y="132.08" size="1.27" layer="98">Small SMD RGB.</text>
-<text x="185.42" y="129.54" size="1.27" layer="98">Same as LeoStick.</text>
 <text x="205.74" y="33.02" size="1.27" layer="98">Jumper on 3 x 0.1" through-hole</text>
 <text x="205.74" y="30.48" size="1.27" layer="98">header pins.</text>
-<text x="185.42" y="124.46" size="1.27" layer="98">R4: 1k SMD quad resistor pack</text>
 <text x="20.32" y="127" size="1.27" layer="98">I/O interface pin headers</text>
 <frame x1="0" y1="0" x2="248.92" y2="185.42" columns="8" rows="5" layer="94"/>
 <frame x1="5.08" y1="12.7" x2="109.22" y2="25.4" columns="0" rows="0" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
@@ -5505,11 +5314,11 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <attribute name="NAME" x="68.58" y="104.14" size="1.27" layer="95"/>
 <attribute name="VALUE" x="66.04" y="102.362" size="1.27" layer="96"/>
 </instance>
-<instance part="R5" gate="G$1" x="71.12" y="83.82" smashed="yes" rot="R180">
+<instance part="R4" gate="G$1" x="71.12" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="64.77" y="80.772" size="1.27" layer="95"/>
 <attribute name="VALUE" x="70.358" y="80.772" size="1.27" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="71.12" y="78.74" smashed="yes" rot="R180">
+<instance part="R5" gate="G$1" x="71.12" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="65.024" y="75.438" size="1.27" layer="95"/>
 <attribute name="VALUE" x="70.104" y="75.438" size="1.27" layer="96"/>
 </instance>
@@ -5549,29 +5358,12 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <attribute name="NAME" x="152.4" y="63.5" size="1.27" layer="95"/>
 <attribute name="VALUE" x="152.4" y="60.96" size="1.27" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="170.18" y="132.08" smashed="yes" rot="MR90">
-<attribute name="NAME" x="179.07" y="144.78" size="1.27" layer="95"/>
-<attribute name="VALUE" x="179.07" y="142.875" size="1.27" layer="96"/>
-</instance>
-<instance part="R4" gate="A" x="162.56" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="157.48" y="101.6" size="1.27" layer="95"/>
-<attribute name="VALUE" x="157.48" y="99.06" size="1.27" layer="96"/>
-</instance>
-<instance part="R4" gate="B" x="170.18" y="101.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="165.1" y="101.6" size="1.27" layer="95"/>
-<attribute name="VALUE" x="165.1" y="99.06" size="1.27" layer="96"/>
-</instance>
-<instance part="R4" gate="C" x="185.42" y="121.92" smashed="yes">
-<attribute name="NAME" x="180.34" y="119.38" size="1.27" layer="95"/>
-<attribute name="VALUE" x="187.96" y="119.38" size="1.27" layer="96"/>
-</instance>
 <instance part="U$8" gate="G$1" x="60.96" y="101.6"/>
 <instance part="U$13" gate="G$1" x="68.58" y="58.42"/>
 <instance part="U$14" gate="G$1" x="88.9" y="58.42"/>
 <instance part="U$15" gate="G$1" x="93.98" y="58.42"/>
 <instance part="U$16" gate="G$1" x="149.86" y="55.88"/>
 <instance part="U$17" gate="G$1" x="205.74" y="96.52"/>
-<instance part="U$18" gate="G$1" x="193.04" y="116.84"/>
 <instance part="H4" gate="G$1" x="205.74" y="73.66" smashed="yes" rot="MR0">
 <attribute name="NAME" x="204.47" y="86.614" size="1.27" layer="95"/>
 <attribute name="VALUE" x="204.47" y="84.582" size="1.27" layer="96"/>
@@ -5592,8 +5384,8 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <instance part="U$1" gate="G$1" x="86.36" y="101.6" smashed="yes" rot="R90">
 <attribute name="VALUE" x="81.28" y="101.6" size="1.27" layer="96"/>
 </instance>
-<instance part="U$2" gate="G$1" x="170.18" y="152.4" smashed="yes">
-<attribute name="VALUE" x="172.72" y="149.86" size="1.27" layer="96"/>
+<instance part="U$2" gate="G$1" x="165.1" y="162.56" smashed="yes">
+<attribute name="VALUE" x="167.64" y="160.02" size="1.27" layer="96"/>
 </instance>
 <instance part="U$10" gate="G$1" x="205.74" y="119.38" smashed="yes">
 <attribute name="VALUE" x="200.66" y="119.38" size="1.27" layer="96"/>
@@ -5642,29 +5434,27 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <attribute name="NAME" x="47.7774" y="59.944" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="51.562" y="56.896" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="L2" gate="G$1" x="58.42" y="66.04" smashed="yes">
+<instance part="L1" gate="G$1" x="58.42" y="66.04" smashed="yes">
 <attribute name="NAME" x="59.9186" y="67.31" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="55.118" y="77.47" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="U$23" gate="G$1" x="40.64" y="149.86" rot="R180"/>
-<instance part="LED2" gate="G$1" x="124.46" y="160.02"/>
-<instance part="LED3" gate="G$1" x="157.48" y="160.02"/>
-<instance part="LED4" gate="G$1" x="139.7" y="160.02"/>
-<instance part="R7" gate="G$1" x="124.46" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="124.46" y="154.94" size="1.27" layer="95"/>
-<attribute name="VALUE" x="121.92" y="152.4" size="1.27" layer="96"/>
+<instance part="H1" gate="G$1" x="40.64" y="149.86" rot="R180"/>
+<instance part="LED1" gate="G$1" x="154.94" y="152.4"/>
+<instance part="LED3" gate="G$1" x="175.26" y="152.4"/>
+<instance part="LED2" gate="G$1" x="165.1" y="152.4"/>
+<instance part="R6" gate="G$1" x="154.94" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.94" y="142.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="152.4" y="139.7" size="1.27" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="139.7" y="147.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="139.7" y="154.94" size="1.27" layer="95"/>
-<attribute name="VALUE" x="137.16" y="152.4" size="1.27" layer="96"/>
+<instance part="R7" gate="G$1" x="165.1" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="165.1" y="142.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="162.56" y="139.7" size="1.27" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="157.48" y="144.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.48" y="152.4" size="1.27" layer="95"/>
-<attribute name="VALUE" x="154.94" y="149.86" size="1.27" layer="96"/>
+<instance part="R8" gate="G$1" x="175.26" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="175.26" y="142.24" size="1.27" layer="95"/>
+<attribute name="VALUE" x="172.72" y="139.7" size="1.27" layer="96"/>
 </instance>
-<instance part="U$24" gate="G$1" x="139.7" y="172.72" smashed="yes">
-<attribute name="VALUE" x="142.24" y="170.18" size="1.27" layer="96"/>
-</instance>
+<instance part="U$18" gate="G$1" x="175.26" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -5708,12 +5498,6 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <pinref part="U$16" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="190.5" y1="121.92" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="121.92" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R4" gate="C" pin="2"/>
-<pinref part="U$18" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="198.12" y1="101.6" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="101.6" x2="205.74" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U$17" gate="G$1" pin="GND"/>
@@ -5739,6 +5523,11 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <wire x1="198.12" y1="68.58" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="H4" gate="G$1" pin="1"/>
 <pinref part="U$21" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="U$18" gate="G$1" pin="GND"/>
+<wire x1="175.26" y1="127" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CTS" class="0">
@@ -5841,18 +5630,18 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 </net>
 <net name="TXLED" class="0">
 <segment>
-<wire x1="139.7" y1="81.28" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="81.28" x2="162.56" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="81.28" x2="154.94" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="81.28" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="(XCK)PD5"/>
-<pinref part="R4" gate="A" pin="2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RXLED" class="0">
 <segment>
-<wire x1="139.7" y1="78.74" x2="170.18" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="78.74" x2="170.18" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="78.74" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="78.74" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="PD4"/>
-<pinref part="R4" gate="B" pin="2"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="RD-" class="0">
@@ -5860,7 +5649,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <wire x1="76.2" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="83.82" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="D-"/>
 </segment>
 </net>
@@ -5869,7 +5658,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <wire x1="76.2" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="78.74" x2="81.28" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="D+"/>
 </segment>
 </net>
@@ -5899,7 +5688,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <wire x1="60.96" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
 <junction x="43.18" y="83.82"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="H2" gate="G$1" pin="D+"/>
 <pinref part="Z1" gate="G$1" pin="1"/>
 </segment>
@@ -5912,7 +5701,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <wire x1="48.26" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="71.12" x2="48.26" y2="86.36" width="0.1524" layer="91"/>
 <junction x="48.26" y="86.36"/>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="H2" gate="G$1" pin="D-"/>
 <pinref part="Z2" gate="G$1" pin="1"/>
 </segment>
@@ -5943,7 +5732,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <pinref part="IC1" gate="G$1" pin="UGND"/>
 <pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="H2" gate="G$1" pin="GND"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <junction x="58.42" y="73.66"/>
 </segment>
 </net>
@@ -5956,7 +5745,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="154.94" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 <label x="25.4" y="154.94" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="5"/>
+<pinref part="H1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="PD0" class="0">
@@ -5968,7 +5757,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="137.16" x2="25.4" y2="137.16" width="0.1524" layer="91"/>
 <label x="25.4" y="137.16" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="12"/>
+<pinref part="H1" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="PD1" class="0">
@@ -5980,7 +5769,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
 <label x="25.4" y="139.7" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="11"/>
+<pinref part="H1" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="PC2" class="0">
@@ -5990,7 +5779,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <pinref part="IC1" gate="G$1" pin="PC2"/>
 </segment>
 <segment>
-<pinref part="U$23" gate="G$1" pin="13"/>
+<pinref part="H1" gate="G$1" pin="13"/>
 <wire x1="33.02" y1="134.62" x2="25.4" y2="134.62" width="0.1524" layer="91"/>
 <label x="25.4" y="134.62" size="1.778" layer="95"/>
 </segment>
@@ -6004,7 +5793,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="157.48" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
 <label x="25.4" y="157.48" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="4"/>
+<pinref part="H1" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="PC6" class="0">
@@ -6016,7 +5805,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="160.02" x2="25.4" y2="160.02" width="0.1524" layer="91"/>
 <label x="25.4" y="160.02" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="3"/>
+<pinref part="H1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="PC5" class="0">
@@ -6028,7 +5817,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="162.56" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
 <label x="25.4" y="162.56" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="2"/>
+<pinref part="H1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PC4" class="0">
@@ -6040,7 +5829,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="165.1" x2="25.4" y2="165.1" width="0.1524" layer="91"/>
 <label x="25.4" y="165.1" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="1"/>
+<pinref part="H1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="PB4" class="0">
@@ -6052,7 +5841,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="147.32" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
 <label x="25.4" y="147.32" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="8"/>
+<pinref part="H1" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -6064,7 +5853,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="149.86" x2="25.4" y2="149.86" width="0.1524" layer="91"/>
 <label x="25.4" y="149.86" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="7"/>
+<pinref part="H1" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="PB6" class="0">
@@ -6076,7 +5865,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="152.4" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
 <label x="25.4" y="152.4" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="6"/>
+<pinref part="H1" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="PB0" class="0">
@@ -6088,29 +5877,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="144.78" x2="25.4" y2="144.78" width="0.1524" layer="91"/>
 <label x="25.4" y="144.78" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="9"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<wire x1="170.18" y1="124.46" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C-R"/>
-<pinref part="R4" gate="B" pin="1"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="177.8" y1="124.46" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C-B"/>
-<pinref part="R4" gate="C" pin="1"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<wire x1="162.56" y1="124.46" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="LED1" gate="G$1" pin="C-G"/>
-<pinref part="R4" gate="A" pin="1"/>
+<pinref part="H1" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -6185,17 +5952,17 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <pinref part="H3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="162.56" y1="147.32" x2="162.56" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="147.32" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="147.32" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="149.86" x2="170.18" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
-<junction x="170.18" y="147.32"/>
-<pinref part="LED1" gate="G$1" pin="A-G"/>
-<pinref part="LED1" gate="G$1" pin="A-R"/>
-<pinref part="LED1" gate="G$1" pin="A-B"/>
+<wire x1="154.94" y1="157.48" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="157.48" x2="165.1" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="157.48" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="160.02" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="157.48" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
+<junction x="165.1" y="157.48"/>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <wire x1="198.12" y1="25.4" x2="198.12" y2="15.24" width="0.1524" layer="91"/>
@@ -6242,7 +6009,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <junction x="38.1" y="55.88"/>
 <junction x="30.48" y="101.6"/>
 <junction x="27.94" y="101.6"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="L1" gate="G$1" pin="2"/>
 <pinref part="Z1" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="60.96" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="Z2" gate="G$1" pin="2"/>
@@ -6255,7 +6022,7 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 <segment>
 <wire x1="33.02" y1="142.24" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
 <label x="25.4" y="142.24" size="1.778" layer="95"/>
-<pinref part="U$23" gate="G$1" pin="10"/>
+<pinref part="H1" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <label x="140.97" y="84.074" size="1.27" layer="95"/>
@@ -6265,23 +6032,23 @@ Note that the ground pin is labelled as ground, not as adj, because it's not the
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="152.4" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="139.7" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="139.7" y1="152.4" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="165.1" y1="139.7" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="157.48" y1="149.86" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="139.7" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
